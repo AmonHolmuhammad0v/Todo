@@ -1,0 +1,44 @@
+.header {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #f3edf7;
+    position: relative;
+    height: 70px;
+}
+
+.header__content, .header__form {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 21px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    transform: translateY(0);
+    position: relative;
+    
+    &.active {
+        transform: translateY(-100%);
+        position: absolute;
+    }
+}
+
+.header__title {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.header__lang {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header__input {
+    line-height: 20px;
+
+    &::placeholder {
+        color: #9D9D9D;
+    }
+}

@@ -1,0 +1,47 @@
+@import url(./fonts.css);
+:root {
+    --fonts: 'Roboto';
+    --body: #fff;
+    --color: #1C1B1F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--fonts);
+    background: var(--body);
+    color: var(--color);
+}
+
+.container {
+    max-width: 1152px;
+    width: 100%;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    background: transparent;
+}
+
+button {
+    cursor: pointer;
+}

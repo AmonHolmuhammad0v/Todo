@@ -1,0 +1,13 @@
+.add-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEE8F4;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
